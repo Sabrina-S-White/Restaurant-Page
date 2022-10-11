@@ -1,6 +1,6 @@
-import gitImg from './git.png';
+import gitImg from './gitIcon.png';
 import linkImg from './linkedin.png';
-import emailImg from './mail.png';
+import emailImg from './email-32.png';
 
 export default function contactLoad() {
     const container = document.getElementById('container')
@@ -36,7 +36,7 @@ export default function contactLoad() {
     item1.classList.add('hover');
     item2.classList.add('hover');
     item3.classList.add('hover');
-    contactItemsUL.classList.add('list');
+    contactItemsUL.classList.add('contactList')
 
     container.appendChild(contactItemsDiv);
 

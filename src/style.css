@@ -60,6 +60,7 @@ button {
 	width: 75%;
 	display: flex;
 	justify-content: space-around;
+	font-size: 1.3rem;
 }
 
 .main {
@@ -80,6 +81,7 @@ button {
 	flex-direction: column;
 	gap: 10px;
 	font-weight: 500;
+	font-size: 1.3rem;
 }
 
 .mainImg {
@@ -102,6 +104,14 @@ button {
 
 .hidden {
 	display: none;
+}
+
+.contactList {
+	list-style: none;
+	display: flex;
+	gap: 25px;
+	font-size: 1.5rem;
+	font-style: italic;
 }
 
 /* Styling for menu popup */
