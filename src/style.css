@@ -103,3 +103,40 @@ button {
 .hidden {
 	display: none;
 }
+
+/* Styling for menu popup */
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	font-size: 1.5rem;
+	font-style: italic;
+}
+
+/* Hover effect */
+
+.hover {
+	border:none;
+	font-size: inherit;
+	font-family: inherit;
+	color: #fff;
+	position: relative;
+	font-weight: bolder;
+	position: relative;
+}
+
+.hover::after {
+	content: '';
+	height: 2px;
+	width: 0;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	transition: 0.5s;
+}
+
+.hover:hover::after {
+	width: 100%;
+}
